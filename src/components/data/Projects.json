@@ -1,23 +1,28 @@
 [
   {
     "key": 1,
+    "title": "Eco-Drive (Full Stack Car Platform)",
+    "imageSrc": "/assets/eco-drive.png",
+    "description": "Eco-Drive is a full stack car web application built using modern web technologies to promote eco-friendly and smart vehicles. It features a clean and responsive user interface with dynamic, user authentication,The platform allows users to explore and manage vehicle listings while delivering smooth navigation and an engaging user experience.",
+    "demo": "https://raj-car-website.netlify.app/"
+  },
+  {
+    "key": 2,
     "title": "AI Verse",
     "imageSrc": "/assets/aiverse.png",
     "description": "AI Verse is a multi-functional AI web application built with React.js and Tailwind CSS. It features a modern UI and integrates powerful tools like a ChatBot, Code Explainer, Text Summarizer, and Interview Prep. The app uses OpenAI's API to deliver intelligent responses and offers smooth routing, dark mode support, and interactive animations for an engaging user experience.",
     "demo": "https://ai-verse-git-main-rajs-projects-18889b56.vercel.app/",
-    "source": "https://github.com/Rajhalder123/chat-app-frontend"
-  },
-  {
-    "key": 2,
-    "title": "Chatty– Real-Time MERN Chat App",
-    "imageSrc": "https://cdn.prod.website-files.com/62a87a50f7326e83a463e90f/649bf9555950c02faf4cc847_439-p-500.png",
-    "description": "Chatty is a real-time messaging app built with the MERN stack and Socket.IO. It supports private chats, instant notifications, and Firebase Authentication. Features include typing indicators, message timestamps, and active user status. Designed with React and Tailwind CSS, it ensures a clean, responsive UI and seamless chat experience across all devices.",
-
-    "demo": "https://message-chat-application.netlify.app/",
-    "source": "https://github.com/Rajhalder123/chatty-app-fullstack"
+    "source": "https://github.com/Rajhalder123/ai-verse"
   },
   {
     "key": 3,
+    "title": "Chatty– Real-Time MERN Chat App",
+    "imageSrc": "https://cdn.prod.website-files.com/62a87a50f7326e83a463e90f/649bf9555950c02faf4cc847_439-p-500.png",
+    "description": "Chatty is a real-time messaging app built with the MERN stack and Socket.IO. It supports private chats, instant notifications, and Firebase Authentication. Features include typing indicators, message timestamps, and active user status. Designed with React and Tailwind CSS, it ensures a clean, responsive UI and seamless chat experience across all devices.",
+    "demo": "https://message-chat-application.netlify.app/"
+  },
+  {
+    "key": 4,
     "title": "Drive with Raj (Car E-commerce Platform)",
     "imageSrc": "https://drive-with-raj.netlify.app/assets/img/Raj%20logo.jpg",
     "description": "Drive with Raj is a premium car e-commerce platform built using React, Firebase Authentication, Firestore, and Storage. It allows users to buy, sell, and explore luxury vehicles with live data sync and a modern UI inspired by CarDekho.",
