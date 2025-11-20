@@ -16,7 +16,7 @@
   },
   {
     "key": 3,
-    "title": "Chatty– Real-Time MERN Chat App",
+    "title": "Chatty-Real-Time MERN Chat App",
     "imageSrc": "https://cdn.prod.website-files.com/62a87a50f7326e83a463e90f/649bf9555950c02faf4cc847_439-p-500.png",
     "description": "Chatty is a real-time messaging app built with the MERN stack and Socket.IO. It supports private chats, instant notifications, and Firebase Authentication. Features include typing indicators, message timestamps, and active user status. Designed with React and Tailwind CSS, it ensures a clean, responsive UI and seamless chat experience across all devices.",
     "demo": "https://message-chat-application.netlify.app/"
@@ -30,7 +30,7 @@
     "source": "https://github.com/Rajhalder123/halder-car"
   },
   {
-    "key": 4,
+    "key": 5,
     "title": "World Galaxy",
     "imageSrc": "/assets/world-galaxy.png",
     "description": "World Galaxy is a high-performance React photo gallery using Tailwind CSS and Framer Motion. It integrates public APIs for dynamic image loading, offers smooth animations, and delivers a fully responsive, user-friendly browsing experience.",
@@ -38,7 +38,7 @@
     "source": "https://github.com/Rajhalder123/World-Galaxy"
   },
   {
-    "key": 5,
+    "key": 6,
     "title": "QR Code Generator",
     "imageSrc": "https://media.licdn.com/dms/image/v2/D4D12AQGzhQNJFwh9EQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1686676891347?e=2147483647&v=beta&t=Jnqhb-k6QW9eNaBOjqmb0qdGlrsHwUk3IZKAEye5c1E",
     "description": "A handy QR Code generator built with React and a public API. Users can instantly convert any link or text into a downloadable QR code with responsive styling.",
@@ -46,7 +46,7 @@
     "source": "https://github.com/Rajhalder123/qr-code-genarater"
   },
   {
-    "key": 6,
+    "key": 7,
     "title": "My First Project React E-Commerce Frontend",
     "imageSrc": "https://media.geeksforgeeks.org/wp-content/uploads/20240409180455/ecommerce-Website-Project.webp",
     "description": "A stylish React-based e-commerce frontend UI showcasing shoes and other products. Features include category browsing, dynamic routing, and a clean, modern design.",
