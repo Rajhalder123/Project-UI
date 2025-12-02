@@ -21,15 +21,15 @@ const SendMessage = () => {
     setIsSending(true);
 
     emailjs
-      .send(
-        "service_ecwwayd", // Your Service ID
+       .send(
+        "service_zuk5g69", // Your Service ID
         "template_aqgvqmq", // Your Template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-        "S7AQJdd36S5HDsIim" // Your User ID
+        "qJFwvqwQMWU1_cny1" // (public Key ) Your User ID
       )
       .then(
         (result) => {
