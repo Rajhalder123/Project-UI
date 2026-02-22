@@ -6,7 +6,7 @@ export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
-    document.body.className = theme; // add class to body
+    document.documentElement.className = theme; // add class to html tag for better Tailwind support
   }, [theme]);
 
   const toggleTheme = () => {

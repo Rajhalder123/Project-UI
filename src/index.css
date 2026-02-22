@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 
+/* Tailwind CSS Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   /* Light Mode Variables */
   --bg-main: #ffffff;
@@ -8,22 +13,22 @@
   /* Slightly darker for better contrast */
   --text-muted: #64748b;
   --border-color: #e2e8f0;
-  --primary: #3b82f6;
-  --accent: #7c3aed;
+  --primary: #10b981;
+  --accent: #14b8a6;
   --card-bg: #ffffff;
   --brand-red: #c23b34;
-  --gradient-primary: linear-gradient(to right, #3b82f6, #7c3aed);
+  --gradient-primary: linear-gradient(to right, #10b981, #14b8a6);
 }
 
-body.dark {
+.dark {
   /* Dark Mode Variables */
   --bg-main: #0f172a;
   --bg-surface: #1e293b;
   --text-main: #f8f9fa;
   --text-muted: #94a3b8;
   --border-color: #334155;
-  --primary: #3b82f6;
-  --accent: #a855f7;
+  --primary: #10b981;
+  --accent: #2dd4bf;
   --card-bg: #1e293b;
   --brand-red: #ff746c;
 }
@@ -36,6 +41,8 @@ body.dark {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+  /* Adjust based on navbar height */
 }
 
 body {

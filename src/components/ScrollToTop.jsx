@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./ScrollToTop.css";
 
 const ScrollToTop = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -25,9 +24,14 @@ const ScrollToTop = () => {
     }, []);
 
     return (
-        <div className="scroll-to-top">
+        <div className="fixed bottom-8 right-8 z-[999]">
             {isVisible && (
-                <button onClick={scrollToTop} className="scroll-top-btn" aria-label="Scroll to top">
+                <button
+                    onClick={scrollToTop}
+                    className="flex justify-center items-center w-12 h-12 text-white rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 text-xl border-0 outline-none cursor-pointer"
+                    style={{ backgroundColor: 'var(--primary)' }}
+                    aria-label="Scroll to top"
+                >
                     <i className="fas fa-arrow-up"></i>
                 </button>
             )}

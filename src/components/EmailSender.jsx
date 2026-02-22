@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
-import "./SendMessage.css";
 
 emailjs.init('yM3x3-6_tI_iQoOKC');
 
@@ -38,13 +37,13 @@ const EmailSender = () => {
   };
 
   return (
-    <div className="contact-form-wrapper">
-      <form onSubmit={handleSubmit} className="contact-form">
-        <div className="mb-3">
-          <label htmlFor="name" className="form-label text-muted">Name</label>
+    <div className="p-8 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm" style={{ backgroundColor: 'var(--bg-surface)' }}>
+      <form onSubmit={handleSubmit} className="w-full">
+        <div className="mb-6">
+          <label htmlFor="name" className="block mb-2 font-semibold text-sm text-slate-600 dark:text-slate-400">Name</label>
           <input
             type="text"
-            className="form-control"
+            className="w-full px-4 py-3 text-slate-900 dark:text-white bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all duration-200"
             id="name"
             name="name"
             value={formData.name}
@@ -53,11 +52,11 @@ const EmailSender = () => {
             placeholder="Enter your name"
           />
         </div>
-        <div className="mb-3">
-          <label htmlFor="email" className="form-label text-muted">Email address</label>
+        <div className="mb-6">
+          <label htmlFor="email" className="block mb-2 font-semibold text-sm text-slate-600 dark:text-slate-400">Email address</label>
           <input
             type="email"
-            className="form-control"
+            className="w-full px-4 py-3 text-slate-900 dark:text-white bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all duration-200"
             id="email"
             name="email"
             value={formData.email}
@@ -66,10 +65,10 @@ const EmailSender = () => {
             placeholder="Enter your email"
           />
         </div>
-        <div className="mb-4">
-          <label htmlFor="message" className="form-label text-muted">Message</label>
+        <div className="mb-8">
+          <label htmlFor="message" className="block mb-2 font-semibold text-sm text-slate-600 dark:text-slate-400">Message</label>
           <textarea
-            className="form-control"
+            className="w-full px-4 py-3 text-slate-900 dark:text-white bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all duration-200 resize-y"
             id="message"
             name="message"
             rows="5"
@@ -79,8 +78,8 @@ const EmailSender = () => {
             placeholder="Enter your message"
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-primary w-100 py-3">SEND MESSAGE</button>
-        {status && <p className="mt-3 text-center text-muted fw-bold">{status}</p>}
+        <button type="submit" className="w-full py-3 px-6 text-white font-bold bg-emerald-600 hover:bg-emerald-700 rounded-lg transition-colors duration-200 uppercase tracking-wide">SEND MESSAGE</button>
+        {status && <p className="mt-4 text-center text-slate-500 dark:text-slate-400 font-bold">{status}</p>}
       </form>
     </div>
   );

@@ -1,11 +1,10 @@
 import React from "react";
-import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-light text-center py-4 border-top">
-      <div className="container">
-        <p className="text-muted mb-0">Copyright &copy; Raj Haldar {new Date().getFullYear()}</p>
+    <footer className="border-t border-slate-200 dark:border-slate-800 py-8 text-center transition-colors duration-300" style={{ backgroundColor: 'var(--bg-main)', color: 'var(--text-muted)' }}>
+      <div className="container mx-auto px-4">
+        <p className="text-sm m-0">Copyright &copy; Raj Haldar {new Date().getFullYear()}</p>
       </div>
     </footer>
   );
