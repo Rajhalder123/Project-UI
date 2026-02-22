@@ -1,0 +1,15 @@
+/* ===== FOOTER ===== */
+.footer {
+  background-color: var(--bg-surface) !important;
+  padding: 2rem 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.footer .text-muted {
+  color: var(--text-muted) !important;
+  font-size: 0.9rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}

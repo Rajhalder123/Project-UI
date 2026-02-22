@@ -1,0 +1,71 @@
+[
+  {
+    "key": 1,
+    "title": "Aadhaar Mask Detector",
+    "imageSrc": "https://api.microlink.io/?url=https://aadhaar-mask-detector.vercel.app/&screenshot=true&meta=false&embed=screenshot.url",
+    "description": "A full-stack machine learning web application that detects and masks Aadhaar numbers from uploaded images to improve document privacy. Built with a focus on reliable APIs, CORS handling, and strict error management.",
+    "tag": "AI & Full-Stack",
+    "demo": "https://aadhaar-mask-detector.vercel.app/",
+    "source": "https://lnkd.in/g8bGW6ae"
+  },
+  {
+    "key": 2,
+    "title": "Chatty Messenger",
+    "imageSrc": "/assets/chaty.png",
+    "description": "A real-time messaging application engineered with the MERN stack and Socket.IO. Delivers instant notifications, secure private chats through Firebase, and a polished Tailwind CSS interface.",
+    "tag": "MERN Stack",
+    "demo": "https://message-chat-application.netlify.app/"
+  },
+  {
+    "key": 3,
+    "title": "AI Verse Platform",
+    "imageSrc": "/assets/aiverse1.png",
+    "description": "A multi-tool AI platform integrating OpenAI APIs to deliver intelligent chatbot interactions, text summarization, and real-time code explanations. Built with advanced state management and fluid theme transitions.",
+    "tag": "React & API",
+    "demo": "https://ai-verse-git-main-rajs-projects-18889b56.vercel.app/",
+    "source": "https://github.com/Rajhalder123/ai-verse"
+  },
+  {
+    "key": 4,
+    "title": "Eco-Drive Platform",
+    "imageSrc": "/assets/eco-drive.png",
+    "description": "A comprehensive full-stack platform promoting eco-friendly vehicles. Features seamless user authentication, dynamic vehicle listings, and a highly responsive interface designed for optimal user engagement.",
+    "tag": "Full-Stack",
+    "demo": "https://raj-car-website.netlify.app/"
+  },
+  {
+    "key": 5,
+    "title": "Summer Paleson Portfolio",
+    "imageSrc": "https://api.microlink.io/?url=https://rajhalder123.github.io/summer-paleson-template-Frontend/&screenshot=true&meta=false&embed=screenshot.url",
+    "description": "A premium personal branding portfolio template featuring clean UI, elegant typography, and a fully responsive modern layout. Strongly focused on UI/UX principles and professional aesthetic branding.",
+    "tag": "Frontend UI",
+    "demo": "https://rajhalder123.github.io/summer-paleson-template-Frontend/"
+  },
+  {
+    "key": 6,
+    "title": "World Galaxy",
+    "imageSrc": "/assets/world-galaxy.png",
+    "description": "A visually stunning photo gallery featuring smooth scroll animations and real-time image data fetching through external APIs.",
+    "tag": "React & Framer",
+    "demo": "https://world-galaxy.netlify.app/",
+    "source": "https://github.com/Rajhalder123/World-Galaxy"
+  },
+  {
+    "key": 7,
+    "title": "Drive with Raj",
+    "imageSrc": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&q=80&w=800",
+    "description": "A luxury car e-commerce platform incorporating Firebase Authentication, Firestore, and cloud storage. Engineered for live data synchronization and a modern, high-performance user interface.",
+    "tag": "React & Firebase",
+    "demo": "https://drive-with-raj.netlify.app/",
+    "source": "https://github.com/Rajhalder123/halder-car"
+  },
+  {
+    "key": 8,
+    "title": "QR Code Generator",
+    "imageSrc": "https://api.microlink.io/?url=https://qr-code-genarater.vercel.app/&screenshot=true&meta=false&embed=screenshot.url",
+    "description": "A high-performance utility that converts text and URLs into downloadable QR codes. Features a minimalist UI and instant generation logic.",
+    "tag": "React Utility",
+    "demo": "https://qr-code-genarater.vercel.app/",
+    "source": "https://github.com/Rajhalder123/qr-code-genarater"
+  }
+]

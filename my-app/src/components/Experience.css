@@ -1,0 +1,101 @@
+/* ===== EXPERIENCE SECTION ===== */
+.experience-section {
+  padding: 5rem 0;
+  background-color: var(--bg-surface);
+  transition: background-color 0.3s;
+}
+
+.col-lg-10 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+
+.col-md-3,
+.col-md-9 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .text-md-end {
+    text-align: right !important;
+  }
+
+  .mb-md-0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.pb-4 {
+  padding-bottom: 1.5rem !important;
+}
+
+.ps-4 {
+  padding-left: 1.5rem !important;
+}
+
+.mt-3 {
+  margin-top: 1rem !important;
+}
+
+.exp-right-border {
+  border-left: 2px solid var(--border-color) !important;
+  transition: border-color 0.3s;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.exp-date {
+  font-size: 1.1rem;
+}
+
+.exp-company {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.experience-item:last-child .exp-right-border {
+  border-left: 2px solid transparent !important;
+}
